@@ -131,10 +131,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             $this->session->set_flashdata('logout', 'Successfully Logout');
             redirect('login');
         }
-
-        public function unset() {
-            $this->session->unset_userdata('customers');
-            $this->session->unset_userdata('employees');
-        }
+        
     }
 ?>
