@@ -155,7 +155,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </body>
 <script type="text/javascript">
 
-    pricemeter = 0;
+    let pricemeter = 0;
 
     setBillModal = (price, type, rate_id, vil_id) => {
         pricemeter = price
